@@ -11,5 +11,16 @@ public class student {
 		this.rollno=rollno;
 		this.age=age;
 	}
+	String getName() {
+		return name;
+	}
+
+	String getRollno() {
+		return rollno;
+	}
+	
+	int getAge() {
+		return age;
+	}
 
 }
